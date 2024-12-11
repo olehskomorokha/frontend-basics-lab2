@@ -1,0 +1,105 @@
+body {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.task2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.phone-position {
+    width: 200px;
+    height: 400px;
+    background-color: #d0e2a1;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: relative;
+    padding: 20px;
+}
+
+.screen-position {
+    width: 220px; 
+    height: 150px;  
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.buttons-position {
+    display: grid;
+    grid-template-columns: repeat(3, 46px); 
+    gap: 10px; 
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    transform: translateX(-45%);
+    width: 200px; 
+}
+
+.button-position {
+    width: 40px;
+    height: 40px;
+    background-color: #7b5c91;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.phone-transform {
+    width: 200px;
+    height: 400px;
+    background-color: #d0e2a1;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: relative;
+    padding: 20px;
+}
+
+.screen-transform {
+    width: 220px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    transform: translateY(0px);
+    transform: translateX(-10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.buttons-transform {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform: translateY(25px);
+    justify-content: center;
+}
+
+.button-transform {
+    width: 40px;
+    height: 40px;
+    background-color: #7b5c91;
+    border-radius: 50%;
+    border: 2px solid black;
+}
